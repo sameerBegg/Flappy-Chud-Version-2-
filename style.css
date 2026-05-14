@@ -7,9 +7,11 @@ html, body {
 body {
    margin: 0; 
    display: flex; 
-  
+   
    justify-content: center;
    align-items: center;
+  
+   background: #800080;
 }
 
 canvas {

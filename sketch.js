@@ -23,8 +23,8 @@ function preload() {
   startImg = loadImage("FCSS.png");
   gameOverImg = loadImage("GameOver.png");
   
-  characterImgs[0]= loadImage("ArtistChud.png");
-  characterImgs[1] = loadImage("ProgrammerChud.png");
+  characterImgs[0]= loadImage("ArtistChud-1.png");
+  characterImgs[1] = loadImage("ProgrammerChud-1.png");
   
   selectSound = loadSound("PowerSound.wav")
   jumpSound = loadSound("PenStroke.wav")
@@ -71,7 +71,7 @@ function draw() {
     // This fixed an issue during development where gameplay was not displaying correctly after the start screen. 
   }
   
-  background(255);   
+  background(0, 150, 255);   
   
   if (gameState === "playing") {
   for (let i = pipes.length-1; i >= 0; i--) {
